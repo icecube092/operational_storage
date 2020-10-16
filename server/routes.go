@@ -8,7 +8,7 @@ import (
 )
 
 // статусы ответа
-var (
+const (
 	defaultLife = time.Second * 5
 	notFound    = "Not found"
 	updated     = "Updated"
